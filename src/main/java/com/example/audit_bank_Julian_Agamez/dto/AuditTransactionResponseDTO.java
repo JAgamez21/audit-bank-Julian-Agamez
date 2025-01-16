@@ -19,5 +19,5 @@ public class AuditTransactionResponseDTO {
     private LocalDateTime transactionDate;
     private double initialBalance;
     private double finalBalance;
-    private String withdrawalType; // Opcional para retiros
+    private String withdrawalType;
 }

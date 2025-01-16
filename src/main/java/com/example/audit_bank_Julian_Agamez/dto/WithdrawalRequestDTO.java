@@ -25,5 +25,5 @@ public class WithdrawalRequestDTO {
     private String accountNumber;
 
     @NotBlank(message = "Withdrawal type is mandatory.")
-    private String withdrawalType; // For example, ATM or Teller
+    private String withdrawalType;
 }
