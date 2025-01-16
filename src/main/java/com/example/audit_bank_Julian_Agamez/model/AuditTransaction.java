@@ -24,5 +24,5 @@ public class AuditTransaction {
     private double finalBalance;
     private String userId;
     private LocalDateTime transactionDate;
-    private String withdrawalType; // Opcional para retiros
+    private String withdrawalType;
 }

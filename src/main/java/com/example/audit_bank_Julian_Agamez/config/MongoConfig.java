@@ -11,7 +11,7 @@ public class MongoConfig {
 
     @Bean
     public MongoClient reactiveMongoClient() {
-        return MongoClients.create("mongodb+srv://userPrueba:Abc123@cluster0/auditbank?retryWrites=true&w=majority");
+        return MongoClients.create("mongodb+srv://userPrueba:IFg3WkKQ7FjYuCs3@cluster0/auditbank?retryWrites=true&w=majority");
     }
 
     @Bean
