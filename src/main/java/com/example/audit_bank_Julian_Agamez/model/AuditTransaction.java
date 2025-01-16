@@ -11,23 +11,18 @@ import java.time.LocalDateTime;
 
 @Data
 @Builder
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @Document(collection = "audit_transactions")
 public class AuditTransaction {
 
     @Id
     private String id;
-
     private String transactionType;
-
-    private Double initialBalance;
-
-    private Double amount;
-
-    private Double finalBalance;
-
+    private double initialBalance;
+    private double transactionAmount;
+    private double finalBalance;
     private String userId;
-
     private LocalDateTime transactionDate;
+    private String withdrawalType; // Opcional para retiros
 }
