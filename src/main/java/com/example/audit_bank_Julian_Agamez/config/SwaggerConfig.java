@@ -16,5 +16,4 @@ public class SwaggerConfig {
                         .version("1.0")
                         .description("API for auditing bank transactions in real-time."));
     }
-
 }
