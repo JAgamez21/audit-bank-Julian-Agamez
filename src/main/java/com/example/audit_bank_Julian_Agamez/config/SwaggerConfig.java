@@ -14,6 +14,7 @@ public class SwaggerConfig {
                 .info(new Info()
                         .title("AuditBank API")
                         .version("1.0")
-                        .description("API for auditing bank transactions in real-time."));
+                        .description("API for auditing bank transactions in real-time."))
+                .openapi("3.0.0");
     }
 }
